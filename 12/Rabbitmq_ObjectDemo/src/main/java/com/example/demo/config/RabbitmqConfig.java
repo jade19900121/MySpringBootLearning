@@ -12,4 +12,12 @@ public class RabbitmqConfig {
      public Queue objectQueue() {
          return new Queue("object");
      }
+
+     @Bean
+     public Queue objectQueue1() {
+         return new Queue("object1");
+     }
+
+
+
 }
